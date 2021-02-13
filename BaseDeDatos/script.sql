@@ -1,0 +1,14 @@
+DROP DATABASE IF EXISTS `demodb`;
+CREATE DATABASE `demodb` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `demodb`;
+
+DROP TABLE IF EXISTS `FiltroIps`;
+CREATE TABLE `FiltroIps` (
+  `ip` varbinary(16) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+DROP TABLE IF EXISTS `IpListaWeb`;
+CREATE TABLE `IpListaWeb` (
+  `ip` varbinary(16) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
