@@ -59,3 +59,6 @@ $ docker run -dp “9080:80” -p “9443:443” --network mired --network-alias
 ```
 
 Con estos pasos quedaría desplegada la solución.
+
+## Notas
+Los secretos y los certificados estan en el repositorio porque habia que pasarlos de alguna forma practica.
